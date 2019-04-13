@@ -158,7 +158,8 @@ namespace Asp.net_MVC_TestpreparationAppDemo.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    //await UserManager.AddToRoleAsync(user.Id, "canEdit"); //adds admin to all registering users.
+                    //HERE
+                    await UserManager.AddToRoleAsync(user.Id, "canEdit"); //adds admin to all registering users.
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
                     // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
