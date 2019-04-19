@@ -266,3 +266,94 @@ C:\Users\gilbe\Source\Repos\AspMVC-Test-Taker-Website-TechDemo-POJECT\Asp.net MV
 C:\Users\gilbe\Source\Repos\AspMVC-Test-Taker-Website-TechDemo-POJECT\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.csproj.CopyComplete
 C:\Users\gilbe\Source\Repos\AspMVC-Test-Taker-Website-TechDemo-POJECT\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.dll
 C:\Users\gilbe\Source\Repos\AspMVC-Test-Taker-Website-TechDemo-POJECT\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.pdb
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\ApplicationInsights.config
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\csc.exe
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\vbc.exe
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Asp.net MVC TestpreparationAppDemo.dll.config
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Asp.net MVC TestpreparationAppDemo.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Asp.net MVC TestpreparationAppDemo.pdb
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Antlr3.Runtime.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\EntityFramework.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\itextsharp.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.Web.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Newtonsoft.Json.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Owin.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Helpers.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Mvc.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Optimization.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Razor.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\WebGrease.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\itextsharp.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.Web.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Helpers.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Mvc.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Optimization.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.Razor.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Newtonsoft.Json.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\EntityFramework.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.csprojAssemblyReference.cache
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net_MVC_TestpreparationAppDemo.Migrations.InitialCreate.resources
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net_MVC_TestpreparationAppDemo.Migrations.initial.resources
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net_MVC_TestpreparationAppDemo.Migrations.modify1.resources
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net_MVC_TestpreparationAppDemo.Migrations.custom3.resources
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.csproj.GenerateResource.cache
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.csproj.CopyComplete
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.dll
+C:\Users\Dylan\Source\Repos\Opon-Source-418\Asp.net MVC TestpreparationAppDemo\obj\Debug\Asp.net MVC TestpreparationAppDemo.pdb
