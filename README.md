@@ -18,4 +18,9 @@ Currently as of 2/6/2017 the features are as follows:
 8. Authorization; anonymous, user, and admin
 9. All data is stored in databases
 
+Super Admin Details
+email: admin@gmail.com
+password: .
 
+Reminder
+Go to file "AccountController.cs" and include lines 162 and 163 to create another super admin.
