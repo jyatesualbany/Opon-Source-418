@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeQuestion>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Final Results!</h1> <br />
+
+<pre>
+Answers correct: @ViewBag.amountcorrect
+Answers wrong:   @ViewBag.amountwrong
+Percentage Correct: @if (ViewBag.amountcorrect != 0 && ViewBag.amountwrong != 0 && ViewBag.amountwrong != null)
+{
+    double percentageright = (ViewBag.amountcorrect / (ViewBag.amountwrong + ViewBag.amountcorrect)) * 100;
+    ViewBag.percentright = percentageright;
+}
+else if (ViewBag.amountcorrect != 0 && ViewBag.amountwrong == 0)
+{
+    ViewBag.percentright = 100;
+}
+else
+{ ViewBag.percentright = 0; }
+@ViewBag.percentright %</pre>
+<br />
+ 
+@Html.ActionLink("Return to Quizbank", "", "Quizbank")
+
+<br /> <br />
+@if(Model != null)
+{
+    int i = 0; //display question number
+    var CorrectorIncorrect = ViewData["CorrectorIncorrect"] as List<string>;
+    <h2>Questions Answered</h2> <br />
+
+    foreach (var item in Model)
+    {
+        i = i + 1;
+        <strong><em>Question @i: </em>@item.QuestionDescription?</strong><br />
+        <em>The Answer: </em>@item.MultipleChoiceCorrect <br />
+        <em>Your Answered: </em>@CorrectorIncorrect[i - 1] <br />
+        <br />
+    }
+}
+
+
+

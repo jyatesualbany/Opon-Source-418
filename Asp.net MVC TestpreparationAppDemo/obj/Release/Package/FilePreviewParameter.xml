@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="418-team3-project" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeTestsDbContext-Web.config Connection String" description="" value="Data Source=tcp:418-team3-projectdbserver.database.windows.net,1433;Initial Catalog=418-team3-project_db;User Id=user_admin@418-team3-projectdbserver;Password=re4RE51993" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeTestsDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:418-team3-projectdbserver.database.windows.net,1433;Initial Catalog=418-team3-project_db;User Id=user_admin@418-team3-projectdbserver;Password=re4RE51993" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeQuestionsDbContext-Web.config Connection String" description="" value="Data Source=tcp:418-team3-projectdbserver.database.windows.net,1433;Initial Catalog=418-team3-project_db;User Id=user_admin@418-team3-projectdbserver;Password=re4RE51993" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeQuestionsDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="Asp.net_MVC_TestpreparationAppDemo.Models.MyQustionsDbContext-Web.config Connection String" description="" value="Data Source=tcp:418-team3-projectdbserver.database.windows.net,1433;Initial Catalog=418-team3-project_db;User Id=user_admin@418-team3-projectdbserver;Password=re4RE51993" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Asp.net_MVC_TestpreparationAppDemo.Models.MyQustionsDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="Asp.net_MVC_TestpreparationAppDemo.Models.MyAssessmentDbContext-Web.config Connection String" description="" value="Data Source=tcp:418-team3-projectdbserver.database.windows.net,1433;Initial Catalog=418-team3-project_db;User Id=user_admin@418-team3-projectdbserver;Password=re4RE51993" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilbe\\source\\repos\\Opon-Source-418-Azure-Final\\Asp\.net\ MVC\ TestpreparationAppDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Asp.net_MVC_TestpreparationAppDemo.Models.MyAssessmentDbContext']/@connectionString" />
+  </parameter>
+</parameters>

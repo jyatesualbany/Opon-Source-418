@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/fontSize.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#57357e">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Community Tests", "AllTestsPublic", "DualDatabaseTestSchemeTests")</li>
+                    @if (ViewContext.HttpContext.User.IsInRole("canEdit"))
+                    {
+                        <li>@Html.ActionLink("Your Tests", "PersonalProfile", "DualDatabaseTestSchemeTests")</li>
+                    }
+                    else
+                    {
+                        //<li>@Html.ActionLink("Register for more options!", "Register", "Account")</li>
+                    }
+
+
+                </ul>
+
+@if (ViewContext.HttpContext.User.IsInRole("canEdit"))
+{
+                <div class="navbar-collapse collapse navbar-left">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application Management<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            @if (ViewContext.HttpContext.User.IsInRole("CanManageUsers"))
+                            {
+                                <li>@Html.ActionLink("Manage Users", "Index", "Account")</li>
+                            }
+                                <li>@Html.ActionLink("Question Index", "Index", "DualDatabaseTestSchemeQuestions")</li>
+                                <li>@Html.ActionLink("Custom Tests", "Index", "DualDatabaseTestSchemeTests")</li>
+                            </ul>
+                        </li>
+                    </ul>    
+                </div>
+}
+
+
+
+
+
+
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+     <!--   <hr />-->
+        <footer>
+            <p>Team 3</p>
+            <a href="javascript:ts('body',-1)">- Smaller Font</a>
+            <a href="javascript:ts('body',1)">+ Larger Font</a>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

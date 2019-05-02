@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeTest>
+
+@{
+    ViewBag.Title = "AllTests";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+        
+                @Html.ActionLink("Take Test", "CustomTestPreFormatting", "DualDatabaseTestSchemeQuestions", new { searchid = item.ID}, null)  
+            </td>
+            <td>
+
+                @Html.ActionLink("Print Test", "TestPDF", "DualDatabaseTestSchemeQuestions", new { id = item.ID, title = item.Name }, null)
+            </td>
+        </tr>
+    }
+
+</table>

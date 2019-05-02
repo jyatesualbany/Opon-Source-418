@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Asp.net_MVC_TestpreparationAppDemo.Models.DualDatabaseTestSchemeTest>
+@{
+    ViewBag.Title = "PersonalProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Your Tests</h2>
+<br />
+
+<div class="form-group col-sm-12 col-md-12 col-lg-12">
+    <div class="form-group col-sm-4 col-md-4 col-lg-4">
+        @Html.ActionLink("Create Simple Test", "Create") <br />
+        @Html.ActionLink("Create Advanced Test", "CreateAdvanced")
+    </div>
+    <div class="form-group col-sm-4 col-md-4 col-lg-4">
+        [Multiple Choice Only] <br />
+        [Additional Options]
+    </div>
+
+</div>
+
+
+<br /><br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre)
+        </th>
+        <th>
+            Newest
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        string username = System.Web.HttpContext.Current.User.Identity.Name;
+        if (item.Owner == username)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateModified)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Take Test", "CustomTestPreFormatting", "DualDatabaseTestSchemeQuestions", new { searchid = item.ID }, null)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Add new Question", "AddNewQuestion", new { id = item.ID }) |
+                    @Html.ActionLink("Edit Questions", "PersonalQuestionIndex", "DualDatabaseTestSchemeQuestions", new { id = item.ID }, null) 
+
+                </td>
+                <td>
+
+                    @Html.ActionLink("Test Details", "CountQuestionsInTest", "DualDatabaseTestSchemeQuestions", new { id = item.ID }, null) |
+                    @Html.ActionLink("Edit Test", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }) |
+                </td>
+            </tr>
+        }
+
+    }
+
+</table>
+
+
