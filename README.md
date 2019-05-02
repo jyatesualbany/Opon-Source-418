@@ -21,6 +21,8 @@ Currently as of 2/6/2017 the features are as follows:
 Super Admin Details
 email: admin@gmail.com
 password: .
+1)works on the local host
+
 
 Reminder
 Go to file "AccountController.cs" and include lines 162 and 163 to create another super admin.
