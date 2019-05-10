@@ -1,5 +1,6 @@
 # Custom-Test-Asp.net-MVC-5-Demo-App
 
+
 Social media web app using ASP.NET MVC 5 that allows users to create custom quizes online, leave feedback, compete on leaderboards. Users can create questions (and tests) and then take the test themselves, or share creations with other users. The goal of this project is to create an environment to help adult test takers prepare for examinations (MCAT, GRE, SAT, BCBA, etc).
 
 Runs in Asp.net MVC 5 and made in Visual Studio 2015. A video showcasing some of the features (but not all as the video is far older than the final release) can be found here: https://www.youtube.com/watch?v=Ak5BkZy2V0o. Will be putting it up live soon.
@@ -17,7 +18,7 @@ Currently as of 2/6/2017 the features are as follows:
 7. Registration
 8. Authorization; anonymous, user, and admin
 9. All data is stored in databases
-
+---------------------------------------------------------------Open Source Details ^^ -----------------------------------------------------
 Super Admin Details
 email: admin@gmail.com
 password: .
