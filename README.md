@@ -18,7 +18,9 @@ Currently as of 2/6/2017 the features are as follows:
 7. Registration
 8. Authorization; anonymous, user, and admin
 9. All data is stored in databases
----------------------------------------------------------------Open Source Details ^^ -----------------------------------------------------
+
+---------------------------------------------------------------Open Source Details ^^ -----------------------------
+
 Super Admin Details
 email: admin@gmail.com
 password: .
